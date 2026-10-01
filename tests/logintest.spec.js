@@ -1,4 +1,5 @@
 import {test,expect} from "@playwright/test"
+test.setTimeout(60000);
 test("Login Test",async({page})=>{
 //await page.goto("https://playwright.dev")
 await page.goto("https://playwright.dev/docs/writing-tests#first-test")
